@@ -55,10 +55,10 @@ class Person
             "<br>My surname is : " . $this->getLastname() .
             "<br> My Dad's name is : " . $this->getFather()->getName() . " " .$this->getFather()->getLastName() .
             "<br> My Mom's name is : " . $this->getMother()->getName() . " " .$this->getMother()->getLastName() .
-            "<br> My partenal grandfarher's name is : " . $this->getFather()->getFather()->getName() .
-            "<br> My partenal grandmother's name is : " . $this->getFather()->getMother()->getName() .
-            "<br> My martenal grandfarher's name is : " . $this->getMother()->getFather()->getName() .
-            "<br> My martenal grandmother's name is : " . $this->getMother()->getMother()->getName();
+            "<br> My paternal grandfarher's name is : " . $this->getFather()->getFather()->getName() .
+            "<br> My paternal grandmother's name is : " . $this->getFather()->getMother()->getName() .
+            "<br> My maternal grandfarher's name is : " . $this->getMother()->getFather()->getName() .
+            "<br> My maternal grandmother's name is : " . $this->getMother()->getMother()->getName();
     }
 }
 $vasiliy = new Person("Vasiliy", "Fisichev", 70);
